@@ -1,0 +1,124 @@
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    background-color: rgb(65, 65, 189);
+    min-width: 150px;
+    min-height: 800px;
+    float: left;
+}
+.main{
+    min-height: 800px;
+    min-width: 700px;
+    background-color: rgb(236, 236, 236);
+    float: left;
+}
+.otsikko{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-family:robotoslab;
+}
+.alaotsikko{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family:robotoslab;
+}
+.leftp{
+    color: aliceblue;
+    font-size: 10px;
+    margin-left: 10px;
+    font-family: mukta;
+}
+.ala{
+    color: aliceblue;
+    font-size: 10px;
+    text-align: center;
+    font-family: mukta;
+}
+.erinomainen{
+    min-height: 5px;
+    background-color: rgb(32, 32, 99);
+    width: 90%;
+    margin-left: 7px;
+    font-family: mukta;
+}
+.hyva{
+    min-height: 5px;
+    background-color: rgb(32, 32, 99);
+    width: 70%;
+    margin-left: 7px;
+    font-family: mukta;
+}
+.parannettavaa{
+    min-height: 5px;
+    background-color: rgb(32, 32, 99);
+    width: 50%;
+    margin-left: 7px;
+    font-family: mukta;
+}
+.tyydyttava{
+    min-height: 5px;
+    background-color: rgb(32, 32, 99);
+    width: 30%;
+    margin-left: 7px;
+    font-family: mukta;
+}
+.huono{
+    min-height: 5px;
+    background-color: rgb(32, 32, 99);
+    width: 10%;
+    margin-left: 7px;
+    font-family: mukta;
+}
+.leipatext{
+    color: black;
+    margin-left: 10px;
+    font-size: 10px;
+    font-family: mukta;
+}
+.mainalaotsikko{
+    color: black;
+    margin-left: 10px;
+    color: rgb(32, 32, 99);
+    text-decoration: underline;
+    font-family:robotoslab;
+}
+li{
+    margin-left: 10px;
+    font-family: mukta;
+}
+.mainh2{
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: mukta;
+}
+.lista{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: mukta;
+}
+img{
+    border-radius: 50%;
+    max-width: 100px;
+    margin-left:25px;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: mukta;
+    src: url(fonts/Mukta/Mukta-Bold.ttf);
+}
+@font-face {
+    font-family: robotoslab;
+    src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+@media only screen and (max-width: 700px){
+
+    #container{
+        display: block;
+    }
+
+}
